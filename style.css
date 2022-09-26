@@ -1,0 +1,25 @@
+h3{
+    font-size: 25px !important;
+
+}
+#b1:hover{
+     background-color: blue;
+    
+}
+@keyframes cod{
+   from{box-shadow: 1px 1px 38px red;}
+   to{box-shadow: 1px 1px 38px rebeccapurple;}
+
+}
+canvas{
+    animation-name:cod;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+body{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
